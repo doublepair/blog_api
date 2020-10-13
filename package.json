@@ -1,0 +1,28 @@
+{
+  "name": "definitivo",
+  "version": "1.0.0",
+  "description": "restful api for articles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"\\Error: no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilCodiceDelloZio/blog_with_backend.git"
+  },
+  "author": "yaros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilCodiceDelloZio/blog_with_backend/issues"
+  },
+  "homepage": "https://github.com/ilCodiceDelloZio/blog_with_backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
